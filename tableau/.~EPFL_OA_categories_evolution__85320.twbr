@@ -1,0 +1,1345 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20223.22.1108.0821                               -->
+<workbook original-version='18.1' source-build='2022.3.1 (20223.22.1108.0821)' source-platform='mac' version='18.1' xml:base='https://tableau.epfl.ch' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <repository-location id='EPFL_OA_categories_evolution' path='/workbooks' revision='1.0' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='EPFLRepositoryMonitor' inline='true' name='federated.091kgf61s1x93615cb2zs1ct4wtx' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='EPFLRepositoryMonitor' name='semistructpassivestore-direct.1xpgwnm13gy1oa11bloj30z0kjqr'>
+            <connection class='semistructpassivestore-direct' directory='/Users/mazare/Library/CloudStorage/OneDrive-epfl.ch/Data analysis/EPFL_OS_Analysis/results' filename='EPFLRepositoryMonitor.json' password='' server='' workgroup-auth-mode='as-is'>
+              <semistruct-schemas>
+                <semistruct-schema table='[EPFLRepositoryMonitor.json]'>
+                  <map key='{root}' value='true' />
+                </semistruct-schema>
+              </semistruct-schemas>
+            </connection>
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='semistructpassivestore-direct.1xpgwnm13gy1oa11bloj30z0kjqr' name='EPFLRepositoryMonitor.json' table='[EPFLRepositoryMonitor.json]' type='table' />
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='semistructpassivestore-direct.1xpgwnm13gy1oa11bloj30z0kjqr' name='EPFLRepositoryMonitor.json' table='[EPFLRepositoryMonitor.json]' type='table' />
+        <metadata-records>
+          <metadata-record class='column'>
+            <remote-name>Document Index (generated)</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Document Index (generated)]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Document Index (generated)</remote-alias>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution (RORid)</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution (RORid)]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Institution (RORid)</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution category &quot;de&quot;</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution category &quot;de&quot;]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Institution category &quot;de&quot;</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution category &quot;en&quot;</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution category &quot;en&quot;]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Institution category &quot;en&quot;</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution category &quot;fr&quot;</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution category &quot;fr&quot;]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Institution category &quot;fr&quot;</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution name &quot;de&quot;</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution name &quot;de&quot;]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Institution name &quot;de&quot;</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution name &quot;en&quot;</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution name &quot;en&quot;]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Institution name &quot;en&quot;</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Institution name &quot;fr&quot;</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Institution name &quot;fr&quot;]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Institution name &quot;fr&quot;</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Number of items</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Number of items]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Number of items</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OA type - advanced</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OA type - advanced]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>OA type - advanced</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OA type - basic</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[OA type - basic]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>OA type - basic</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Period</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Period]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Period</remote-alias>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Resource type</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Resource type]</local-name>
+            <parent-name>[EPFLRepositoryMonitor.json]</parent-name>
+            <remote-alias>Resource type</remote-alias>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='binary' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='Sum' datatype='integer' name='[Document Index (generated)]' role='dimension' type='ordinal'>
+        <desc>
+          <formatted-text>
+            <run>Document Index (generated)</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Institution (RORid)]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Institution (RORid)</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Institution category &quot;de&quot;]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Institution category de</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Institution category &quot;en&quot;]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Institution category en</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Institution category &quot;fr&quot;]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Institution category fr</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Institution name &quot;de&quot;]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Institution name de</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Institution name &quot;en&quot;]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Institution name en</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Institution name &quot;fr&quot;]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Institution name fr</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[Number of items]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>Number of items</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[OA type - advanced]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>OA type - advanced</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[OA type - basic]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>OA type - basic</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='real' name='[Period]' role='measure' type='quantitative'>
+        <desc>
+          <formatted-text>
+            <run>Period</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <column datatype='string' name='[Resource type]' role='dimension' type='nominal'>
+        <desc>
+          <formatted-text>
+            <run>Resource type</run>
+          </formatted-text>
+        </desc>
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='EPFLRepositoryMonitor.json' datatype='table' name='[__tableau_internal_object_id__].[EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613]' role='measure' type='quantitative' />
+      <column-instance column='[OA type - advanced]' derivation='None' name='[none:OA type - advanced:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Period]' derivation='None' name='[none:Period:ok]' pivot='key' type='ordinal' />
+      <column-instance column='[Resource type]' derivation='None' name='[none:Resource type:nk]' pivot='key' type='nominal' />
+      <group hidden='true' name='[Inclusions (OA type - advanced,Period)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:OA type - advanced:nk]' />
+          <groupfilter function='level-members' level='[none:Period:ok]' />
+        </groupfilter>
+      </group>
+      <group hidden='true' name='[Inclusions (Period,Resource type)]' name-style='unqualified' user:auto-column='include'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[none:Period:ok]' />
+          <groupfilter function='level-members' level='[none:Resource type:nk]' />
+        </groupfilter>
+      </group>
+      <_.fcp.SchemaViewerObjectModel.false...folder name='EPFL Repository Monitor' role='dimensions'>
+        <folder-item name='[Document Index (generated)]' type='field' />
+        <folder-item name='[Institution (RORid)]' type='field' />
+        <folder-item name='[Institution category &quot;de&quot;]' type='field' />
+        <folder-item name='[Institution category &quot;en&quot;]' type='field' />
+        <folder-item name='[Institution category &quot;fr&quot;]' type='field' />
+        <folder-item name='[Institution name &quot;de&quot;]' type='field' />
+        <folder-item name='[Institution name &quot;en&quot;]' type='field' />
+        <folder-item name='[Institution name &quot;fr&quot;]' type='field' />
+        <folder-item name='[OA type - advanced]' type='field' />
+        <folder-item name='[OA type - basic]' type='field' />
+        <folder-item name='[Resource type]' type='field' />
+      </_.fcp.SchemaViewerObjectModel.false...folder>
+      <_.fcp.SchemaViewerObjectModel.true...folders-common>
+        <folder name='EPFL Repository Monitor'>
+          <folder-item name='[Document Index (generated)]' type='field' />
+          <folder-item name='[Institution (RORid)]' type='field' />
+          <folder-item name='[Institution category &quot;de&quot;]' type='field' />
+          <folder-item name='[Institution category &quot;en&quot;]' type='field' />
+          <folder-item name='[Institution category &quot;fr&quot;]' type='field' />
+          <folder-item name='[Institution name &quot;de&quot;]' type='field' />
+          <folder-item name='[Institution name &quot;en&quot;]' type='field' />
+          <folder-item name='[Institution name &quot;fr&quot;]' type='field' />
+          <folder-item name='[OA type - advanced]' type='field' />
+          <folder-item name='[OA type - basic]' type='field' />
+          <folder-item name='[Resource type]' type='field' />
+        </folder>
+      </_.fcp.SchemaViewerObjectModel.true...folders-common>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='false' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[none:OA type - advanced:nk]' type='palette'>
+            <map to='#000000'>
+              <bucket>&quot;Closed&quot;</bucket>
+            </map>
+            <map to='#59a14f'>
+              <bucket>&quot;Green&quot;</bucket>
+            </map>
+            <map to='#808080'>
+              <bucket>&quot;Hybrid&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Gold&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Resource type:nk]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>&quot;Book&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Journal article&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Conference paper&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Book part&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Suisse&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='EPFLRepositoryMonitor.json' id='EPFLRepositoryMonitor.json_5A634D7E639748B184B81326B33FA613'>
+            <properties context=''>
+              <relation connection='semistructpassivestore-direct.1xpgwnm13gy1oa11bloj30z0kjqr' name='EPFLRepositoryMonitor.json' table='[EPFLRepositoryMonitor.json]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='Alltypes_Year_Closed'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Evolution of number of journal articles behind paywall</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='EPFLRepositoryMonitor' name='federated.091kgf61s1x93615cb2zs1ct4wtx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.091kgf61s1x93615cb2zs1ct4wtx'>
+            <column datatype='real' name='[Number of items]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Number of items</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[OA type - advanced]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>OA type - advanced</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[Period]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Period</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[Resource type]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>Resource type</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column-instance column='[OA type - advanced]' derivation='None' name='[none:OA type - advanced:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Period]' derivation='None' name='[none:Period:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Resource type]' derivation='None' name='[none:Resource type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of items]' derivation='Sum' name='[sum:Number of items:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (OA type - advanced,Period)]'>
+            <groupfilter function='crossjoin' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:OA type - advanced:nk]' member='&quot;Closed&quot;' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Period:ok]' member='2018.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2019.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2020.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2021.0' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (OA type - advanced,Period)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:OA type - advanced:nk]' />
+              <color column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.091kgf61s1x93615cb2zs1ct4wtx].[sum:Number of items:qk]</rows>
+        <cols>[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Period:ok]</cols>
+      </table>
+      <simple-id uuid='{38B6C59F-9885-42A8-9CC4-2575AB481BA8}' />
+    </worksheet>
+    <worksheet name='Alltypes_Year_Gold'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Evolution of number of journal articles in gold open access</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='EPFLRepositoryMonitor' name='federated.091kgf61s1x93615cb2zs1ct4wtx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.091kgf61s1x93615cb2zs1ct4wtx'>
+            <column datatype='real' name='[Number of items]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Number of items</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[OA type - advanced]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>OA type - advanced</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[Period]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Period</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[Resource type]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>Resource type</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column-instance column='[OA type - advanced]' derivation='None' name='[none:OA type - advanced:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Period]' derivation='None' name='[none:Period:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Resource type]' derivation='None' name='[none:Resource type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of items]' derivation='Sum' name='[sum:Number of items:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (OA type - advanced,Period)]'>
+            <groupfilter function='crossjoin' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:OA type - advanced:nk]' member='&quot;Gold&quot;' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Period:ok]' member='2018.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2019.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2020.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2021.0' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (OA type - advanced,Period)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:OA type - advanced:nk]' />
+              <color column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.091kgf61s1x93615cb2zs1ct4wtx].[sum:Number of items:qk]</rows>
+        <cols>[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Period:ok]</cols>
+      </table>
+      <simple-id uuid='{4CBFFEF0-49E5-45E1-92FA-A8E32123891A}' />
+    </worksheet>
+    <worksheet name='Alltypes_Year_Green'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Evolution of number of journal articles in green open access</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='EPFLRepositoryMonitor' name='federated.091kgf61s1x93615cb2zs1ct4wtx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.091kgf61s1x93615cb2zs1ct4wtx'>
+            <column datatype='real' name='[Number of items]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Number of items</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[OA type - advanced]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>OA type - advanced</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[Period]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Period</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[Resource type]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>Resource type</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column-instance column='[OA type - advanced]' derivation='None' name='[none:OA type - advanced:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Period]' derivation='None' name='[none:Period:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Resource type]' derivation='None' name='[none:Resource type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of items]' derivation='Sum' name='[sum:Number of items:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (OA type - advanced,Period)]'>
+            <groupfilter function='crossjoin' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:OA type - advanced:nk]' member='&quot;Green&quot;' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Period:ok]' member='2018.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2019.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2020.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2021.0' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (OA type - advanced,Period)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:OA type - advanced:nk]' />
+              <color column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.091kgf61s1x93615cb2zs1ct4wtx].[sum:Number of items:qk]</rows>
+        <cols>[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Period:ok]</cols>
+      </table>
+      <simple-id uuid='{AB6ECCCF-5E3A-4B41-9E14-A825BCC8152B}' />
+    </worksheet>
+    <worksheet name='Alltypes_Year_Hybrid'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Evolution of number of journal articles in hybrid access</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='EPFLRepositoryMonitor' name='federated.091kgf61s1x93615cb2zs1ct4wtx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.091kgf61s1x93615cb2zs1ct4wtx'>
+            <column datatype='real' name='[Number of items]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Number of items</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[OA type - advanced]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>OA type - advanced</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[Period]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Period</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[Resource type]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>Resource type</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column-instance column='[OA type - advanced]' derivation='None' name='[none:OA type - advanced:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Period]' derivation='None' name='[none:Period:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Resource type]' derivation='None' name='[none:Resource type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of items]' derivation='Sum' name='[sum:Number of items:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (OA type - advanced,Period)]'>
+            <groupfilter function='crossjoin' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[none:OA type - advanced:nk]' member='&quot;Hybrid&quot;' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[none:Period:ok]' member='2018.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2019.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2020.0' />
+                <groupfilter function='member' level='[none:Period:ok]' member='2021.0' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (OA type - advanced,Period)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:OA type - advanced:nk]' />
+              <color column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.091kgf61s1x93615cb2zs1ct4wtx].[sum:Number of items:qk]</rows>
+        <cols>[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Period:ok]</cols>
+      </table>
+      <simple-id uuid='{80DAC16F-0780-4A96-A3DB-DBF4FADD378F}' />
+    </worksheet>
+    <worksheet name='Journals_Year_Type'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run>Evolution of number of journal articles by open access category  </run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='EPFLRepositoryMonitor' name='federated.091kgf61s1x93615cb2zs1ct4wtx' />
+          </datasources>
+          <datasource-dependencies datasource='federated.091kgf61s1x93615cb2zs1ct4wtx'>
+            <column datatype='real' name='[Number of items]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Number of items</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[OA type - advanced]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>OA type - advanced</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='real' name='[Period]' role='measure' type='quantitative'>
+              <desc>
+                <formatted-text>
+                  <run>Period</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column datatype='string' name='[Resource type]' role='dimension' type='nominal'>
+              <desc>
+                <formatted-text>
+                  <run>Resource type</run>
+                </formatted-text>
+              </desc>
+            </column>
+            <column-instance column='[OA type - advanced]' derivation='None' name='[none:OA type - advanced:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Period]' derivation='None' name='[none:Period:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Resource type]' derivation='None' name='[none:Resource type:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Number of items]' derivation='Sum' name='[sum:Number of items:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (Period,Resource type)]'>
+            <groupfilter function='reorder-dimensionality' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='crossjoin'>
+                <groupfilter function='member' level='[none:Resource type:nk]' member='&quot;Journal article&quot;' />
+                <groupfilter function='union'>
+                  <groupfilter function='member' level='[none:Period:ok]' member='2018.0' />
+                  <groupfilter function='member' level='[none:Period:ok]' member='2019.0' />
+                  <groupfilter function='member' level='[none:Period:ok]' member='2020.0' />
+                  <groupfilter function='member' level='[none:Period:ok]' member='2021.0' />
+                </groupfilter>
+              </groupfilter>
+              <order>
+                <hierarchy name='[none:Period:ok]' />
+                <hierarchy name='[none:Resource type:nk]' />
+              </order>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.091kgf61s1x93615cb2zs1ct4wtx].[Inclusions (Period,Resource type)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Line' />
+            <encodings>
+              <lod column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' />
+              <color column='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:OA type - advanced:nk]' />
+            </encodings>
+          </pane>
+        </panes>
+        <rows>[federated.091kgf61s1x93615cb2zs1ct4wtx].[sum:Number of items:qk]</rows>
+        <cols>[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Period:ok]</cols>
+      </table>
+      <simple-id uuid='{9EB49DF2-0EBA-4469-8E99-8F76E7B4909F}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Tableau_Alltypes_Year_Closed'>
+      <style />
+      <size maxheight='300' maxwidth='800' minheight='300' minwidth='800' preset-index='3' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='94666' id='7' param='horz' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+            <zone h='94666' id='5' type-v2='layout-basic' w='78000' x='1000' y='2667'>
+              <zone h='94666' id='3' name='Alltypes_Year_Closed' w='78000' x='1000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='94666' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='20000' x='79000' y='2667'>
+              <zone h='35334' id='8' name='Alltypes_Year_Closed' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='94666' id='13' param='vert' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+                <zone fixed-size='276' h='94666' id='3' is-fixed='true' name='Alltypes_Year_Closed' w='78000' x='1000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='35334' id='8' name='Alltypes_Year_Closed' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{FD4E986A-5EE9-40A5-9BEE-8654EB1820DD}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Tableau_Alltypes_Year_Gold'>
+      <style />
+      <size maxheight='300' maxwidth='800' minheight='300' minwidth='800' preset-index='3' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='94666' id='7' param='horz' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+            <zone h='94666' id='5' type-v2='layout-basic' w='78000' x='1000' y='2667'>
+              <zone h='94666' id='3' name='Alltypes_Year_Gold' w='78000' x='1000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='94666' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='20000' x='79000' y='2667'>
+              <zone h='35334' id='8' name='Alltypes_Year_Gold' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='94666' id='13' param='vert' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+                <zone fixed-size='276' h='94666' id='3' is-fixed='true' name='Alltypes_Year_Gold' w='78000' x='1000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='35334' id='8' name='Alltypes_Year_Gold' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{329871D6-0A56-4BF0-9650-B18432F38B9C}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Tableau_Alltypes_Year_Green'>
+      <style />
+      <size maxheight='300' maxwidth='800' minheight='300' minwidth='800' preset-index='3' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='94666' id='7' param='horz' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+            <zone h='94666' id='5' type-v2='layout-basic' w='78000' x='1000' y='2667'>
+              <zone h='94666' id='3' name='Alltypes_Year_Green' w='78000' x='1000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='94666' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='20000' x='79000' y='2667'>
+              <zone h='35334' id='8' name='Alltypes_Year_Green' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='94666' id='13' param='vert' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+                <zone fixed-size='276' h='94666' id='3' is-fixed='true' name='Alltypes_Year_Green' w='78000' x='1000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='35334' id='8' name='Alltypes_Year_Green' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{C42583DF-D1A0-4C75-9192-66F5A3318296}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Tableau_Alltypes_Year_Hybrid'>
+      <style />
+      <size maxheight='300' maxwidth='800' minheight='300' minwidth='800' preset-index='3' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='94666' id='7' param='horz' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+            <zone h='94666' id='5' type-v2='layout-basic' w='78000' x='1000' y='2667'>
+              <zone h='94666' id='3' name='Alltypes_Year_Hybrid' w='78000' x='1000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='94666' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='20000' x='79000' y='2667'>
+              <zone h='28667' id='8' name='Alltypes_Year_Hybrid' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='94666' id='13' param='vert' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+                <zone fixed-size='276' h='94666' id='3' is-fixed='true' name='Alltypes_Year_Hybrid' w='78000' x='1000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='28667' id='8' name='Alltypes_Year_Hybrid' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{D57085DA-1F08-4955-A994-FFD3808843FA}' />
+    </dashboard>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='Tableau_alltypes_year_type'>
+      <style />
+      <size maxheight='300' maxwidth='800' minheight='300' minwidth='800' preset-index='3' sizing-mode='fixed' />
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='94666' id='7' param='horz' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+            <zone h='94666' id='5' type-v2='layout-basic' w='78000' x='1000' y='2667'>
+              <zone h='94666' id='3' name='Journals_Year_Type' w='78000' x='1000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+            <zone fixed-size='160' h='94666' id='6' is-fixed='true' param='vert' type-v2='layout-flow' w='20000' x='79000' y='2667'>
+              <zone h='35334' id='8' name='Journals_Year_Type' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:OA type - advanced:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='none' />
+                  <format attr='border-width' value='0' />
+                  <format attr='margin' value='4' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <size maxheight='700' minheight='700' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='94666' id='13' param='vert' type-v2='layout-flow' w='98000' x='1000' y='2667'>
+                <zone fixed-size='276' h='94666' id='3' is-fixed='true' name='Journals_Year_Type' w='78000' x='1000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone h='35334' id='8' name='Journals_Year_Type' pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:OA type - advanced:nk]' type-v2='color' w='20000' x='79000' y='2667'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{CD454B7D-3AED-40B8-AC84-D9CDB149BD83}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='worksheet' name='Journals_Year_Type'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:OA type - advanced:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{04938992-4439-4232-82FF-C604A467B404}' />
+    </window>
+    <window class='worksheet' name='Alltypes_Year_Closed'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{8C5B1C05-573F-40F4-8EEA-CF651AD7AEE4}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Alltypes_Year_Green'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{09404D6C-7829-42B9-92E8-013075064CB4}' />
+    </window>
+    <window class='worksheet' name='Alltypes_Year_Hybrid'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{4D9573DB-BF4B-44C1-AEFB-6E1061DE854A}' />
+    </window>
+    <window class='worksheet' name='Alltypes_Year_Gold'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='170'>
+            <card pane-specification-id='0' param='[federated.091kgf61s1x93615cb2zs1ct4wtx].[none:Resource type:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{9AB4C11E-7E24-4835-99A4-668C8F604F93}' />
+    </window>
+    <window class='dashboard' name='Tableau_alltypes_year_type'>
+      <viewpoints>
+        <viewpoint name='Journals_Year_Type'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{A31911DA-A39B-408E-9D95-ED97F6024BF9}' />
+    </window>
+    <window class='dashboard' name='Tableau_Alltypes_Year_Closed'>
+      <viewpoints>
+        <viewpoint name='Alltypes_Year_Closed'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B1B0C558-B43D-4570-B9A5-08EEC7FDF9B2}' />
+    </window>
+    <window class='dashboard' name='Tableau_Alltypes_Year_Green'>
+      <viewpoints>
+        <viewpoint name='Alltypes_Year_Green'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{7334120E-975A-4999-87D8-089E0DAC0132}' />
+    </window>
+    <window class='dashboard' name='Tableau_Alltypes_Year_Hybrid'>
+      <viewpoints>
+        <viewpoint name='Alltypes_Year_Hybrid'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{D61D6F5A-EED8-4DC7-A281-51B883C711DC}' />
+    </window>
+    <window class='dashboard' name='Tableau_Alltypes_Year_Gold'>
+      <viewpoints>
+        <viewpoint name='Alltypes_Year_Gold'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='-1' />
+      <simple-id uuid='{B485E9C4-A05B-447D-BE4C-016ACF694E54}' />
+    </window>
+  </windows>
+</workbook>
